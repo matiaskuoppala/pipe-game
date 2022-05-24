@@ -1,0 +1,110 @@
+#canvas {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    border-color: #5A6ED2;
+    border-width: 5px;
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+}
+
+#container
+{
+  height: 800px;
+  position: relative;
+  width: 400px;
+}
+
+#hard {
+    background-image: url("hard.png");
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    left: 40px;   
+    top: 470px;
+    margin: 10px;
+    padding: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#guide {
+    display: block;
+    left: 500px;
+    top: 400px;
+    position: absolute;
+}
+
+#normal {
+    background-image: url("normal.png");
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    left: 40px;   
+    top: 300px;
+    margin: 10px;
+    padding: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#easy {
+    background-image: url("easy.png");
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    left: 40px;   
+    top: 130px;
+    margin: 10px;
+    padding: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#start {
+    background-image: url("start.png");
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    left: 40px;   
+    top: 300px; 
+    margin: 10px;
+    padding: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+
+#newgame {
+    background-image: url("newgame.png");
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    left: 40px; 
+    top: 330px;
+    margin: 10px;
+    padding: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+body {
+    background-image: url("bg.png");
+}
+
+.level-button {
+    z-index: 2;
+}

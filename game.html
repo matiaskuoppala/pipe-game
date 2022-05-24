@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+</head>
+<body>
+    <div id="container">
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="enemy.js"></script>
+    <script type="text/javascript" src="player.js"></script>
+    <script type="text/javascript" src="animation.js"></script> 
+    <button class="level-button" id="easy" onclick="setDifficulty(1)"></button>
+    <button class="level-button" id="normal" onclick="setDifficulty(2)"></button>
+    <button class="level-button" id="hard" onclick="setDifficulty(3)"></button>
+    <button class="level-button" id="start" onclick="begin()"></button>
+    <button class="level-button" id="newgame" onclick="again()"></button>
+    </div>
+    <div id="guide">
+        Guide:
+        Your purpose as the Gasum knight is to defend the Baltic Connector gas pipe from the evil terrorists who want to ensure oil's supremacy over natural gas.
+        Use the arrow keys to move the knight around. He will automatically attack and kill any terrorist he bumps into.
+        Watch out for red and green terrorists, as you lose more lives if they get through to the Baltic Connector.
+    </div>
+</body>
+</html>
+
+
